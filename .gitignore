@@ -1,0 +1,6 @@
+.env*
+.htaccess*
+
+node_modules
+dist
+backend

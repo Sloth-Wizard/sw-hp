@@ -1,0 +1,31 @@
+.sw {
+    &--wrapper {
+        position: relative;
+        display: inline-block;
+        height: 112px;
+        margin: var(--s2);
+
+        h1 {
+            position: relative;
+            font-family: var(--ffConsole);
+            font-size: var(--fzBig);
+            font-style: italic;
+            color: var(--white);
+            top: 50%;
+            transform: translateY(-50%);
+        }
+    }
+
+    &--container {
+        position: absolute;
+        color: var(--black);
+        background-image: url(./images/irmd.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        top: 0;
+        left: calc(100% + var(--s3));
+        transform-origin: top left;
+        transform: scale(.05);
+        overflow: hidden;
+    }
+}
